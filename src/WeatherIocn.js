@@ -23,14 +23,12 @@ export default function(props) {
       "50d": "FOG",
       "50n": "FOG",
     };    
-    
- 
 
     return (
       <ReactAnimatedWeather
         icon={codeMapping[props.code]}
         color="#1e1e1e"
-        size={64}
+        size="52"
         animate={true}
       />
     );
